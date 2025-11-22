@@ -6,4 +6,4 @@ a.split('').reverse().map((element, index) => {if(index%3==0) {b.push(' ')
     else b.push(element)
 })
 
-console.log(b.reverse().join())
+console.log(b.reverse().join(''))

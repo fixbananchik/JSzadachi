@@ -5,4 +5,4 @@ a.split('').map((element)=>{if( element==element.toUpperCase() ) b.push(element.
     else b.push(element.toUpperCase())
 })
 
-console.log(b)
+console.log(b.join(''))

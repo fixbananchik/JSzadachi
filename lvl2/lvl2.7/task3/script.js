@@ -1,3 +1,3 @@
 let a = 123789
 
-String(a).split('').map()
+console.log(String(a).split('').map((element)=> {if(element%2==0) return element}))
