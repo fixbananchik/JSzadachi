@@ -15,6 +15,7 @@ let a = [
 		[37, 37, 39],
 	],
 ]
+
 let sum  = 0
 
 a.map((element)=>{element.map((i)=>{sum+=i})})
