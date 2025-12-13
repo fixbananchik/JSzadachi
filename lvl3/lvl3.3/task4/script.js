@@ -18,4 +18,4 @@ let a = [
 
 let sum  = 0
 
-a.map((element)=>{element.map((i)=>{sum+=i})})
+a.map((element)=>{element.map((el)=>{el.map((i)=>{sum+=i})})})
